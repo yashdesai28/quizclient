@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #4181ee;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.space {
+    height: 170px;
+    width: 300;
+}
+
+.sec {
+    background-color: #FFF;
+    padding: 30px;
+    color: black;
+    height: 10.9rem;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background: #02b875;
+    /* padding: 30px; */
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #FFF;
+    margin: 20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+    cursor: pointer;
+    /* Added cursor pointer */
+    transition: background-color 0.3s;
+    /* Added transition for smooth color change */
+}
+
+.card:hover {
+    background: #af6d4c;
+    /* Change background color on hover */
+}
+
+.card:nth-child(2) {
+    background: #4181ee;
+}
+
+.card:last-child {
+    background: #673ab7;
+}
+
+.card-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.card-content {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.card-btn {
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+
+.card-btn:hover {
+    color: #017a4e;
+    background: #FFF;
+}
+
+.card:nth-child(2) .card-btn:hover {
+    color: #4181ee;
+    background: #FFF;
+}
+
+.card:last-child .card-btn:hover {
+    color: #673ab7;
+    background: #FFF;
+}

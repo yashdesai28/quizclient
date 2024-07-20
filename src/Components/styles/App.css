@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --primary-color: #0DFF92;
+  --dark-color:#222222;
+  --light-color: #f0f0f0;
+}
+
+/* body, html{
+  height: 100%;
+  background: var(--dark-color)
+} */
+
+* > *{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1{
+  display: block;
+  position: relative;
+  margin: 4px auto;
+  height: auto;
+  width: 800px;
+  padding: 20px;
+}
+
+.container1 .title{
+    font-size: 3em;
+    text-align: center;
+    border: 5px solid  black;
+    padding: .3em .2em;
+    border-radius: 4px;
+    color: #202020;
+}
+
+.text-light1 {
+	color: black;
+  margin-top: 1rem;
+  
+}
+
+.container1 ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	overflow: auto;
+}
+
+.container1 .questions{
+    padding: 3em;
+}
+
+/* 
+.container1 .questions .qid{
+  padding: .2em .7em;
+  color: #222222;
+  background-color: #0DFF92;
+  border-radius: 50px;
+} */
+
+.container1 .grid{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.container1 .btn1{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+}
+
+.container1 .btn1:hover{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #202020;
+}
+
+.next{
+    background-color: var(--primary-color);
+    justify-self: flex-end;
+}
+
+.prev{
+    background-color: #faff5a;
+    justify-self: flex-start;
+}
+
+ul li{
+  color: #AAAAAA;
+  display: block;
+  position: relative;
+  float: left;
+  /* width: 100%; */
+  /* height: 100vh; */
+	border-bottom: 1px solid #333;
+}
+
+ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  padding: 25px 25px 25px 80px;
+  margin: 10px auto;
+  height: 30px;
+  color: #202020;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+
+
+
+
+
+
